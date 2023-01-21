@@ -1,0 +1,97 @@
+.intro{
+    display: flex;
+    .left{
+        background-color: white;
+        flex: 0.5;
+        background-image: url(../../../public/assets/Alowhitegif.gif);
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+        background-position-x: 70%;
+        background-position-y: 48%;
+        transition: all 1s ease;
+        color: black;
+        &.active{
+            background-color: black;
+            background-image: url(../../../public/assets/Aloblackgif.gif);
+            color: white;
+        }
+        .titulo{
+            font-size: 200px;
+            font-weight: 700;
+            display: flex;
+            justify-content:center;
+            height: 70%;
+            align-items: flex-end;
+            margin-right: 300px;
+            font-family: 'League Gothic', sans-serif;
+        }
+        .subtitulo{
+            font-size: 30px;
+            font-weight: 500;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 30%;
+            margin-right: 46%;
+        }
+    }
+    
+    .right{
+        flex: 0.5;
+        background-color: rgb(200, 179, 240);
+        position: relative;
+        transition: all 1s ease;
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 30px;
+                span{
+                    color: blueviolet;
+                }
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 10px;
+            left: 40%;
+            img{
+                width: 40px;
+                animation: arrowBlink 2s infinite;
+            }
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 0;
+                }
+                
+            }
+        }
+        &.active{
+            background-color: rgb(34, 34, 34);
+            color: white;
+        }
+    }
+}

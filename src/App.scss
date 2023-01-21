@@ -1,0 +1,22 @@
+.App {
+    height: 100vh;
+
+    .sections {
+        width: 100%;
+        height: calc(100vh - 70px);
+        position: relative;
+        top: 70px;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none; /*Hide scrollbar firefox*/
+        -ms-overflow-style: none;  /* IE and Edge */
+        &::-webkit-scrollbar{
+            display:none
+        }/* hide for chrome and others*/;
+
+        >* {
+            scroll-snap-align: start;
+            width: 100%;
+            height: calc(100vh - 70px);
+        }
+    }
+}
