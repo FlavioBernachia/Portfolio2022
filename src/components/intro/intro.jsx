@@ -10,7 +10,7 @@ export default function Intro({openHamburger}) {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings:["Frontend Developer Jr", "Fullstack jr", "Designer"],
+      strings:["<Frontend Developer Jr/>", "<Fullstack jr/>", "<Designer/>"],
     });
   }, []);
   

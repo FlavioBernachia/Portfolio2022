@@ -16,7 +16,7 @@ function App() {
       <Menu openHamburger={openHamburger} setOpenHamburger={setOpenHamburger}/>
       <div className="sections">
         <Intro openHamburger={openHamburger} setOpenHamburger={setOpenHamburger}/>
-        <Portfolio />
+        <Portfolio openHamburger={openHamburger} setOpenHamburger={setOpenHamburger} />
         <Works />
         <Testimonials />
         <Contact />
