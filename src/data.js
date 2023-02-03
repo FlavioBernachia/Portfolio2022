@@ -158,3 +158,29 @@ export const contentPortfolio = [
         img:"https://img.freepik.com/free-vector/application-learn-languages_23-2148624202.jpg?w=740&t=st=1674322062~exp=1674322662~hmac=fb9648834d4f835de984946ec9f21e1fb13eb526345f348b450d696a20b708de",
     },
 ]; 
+export const cardWorks = [
+    {
+        id:1,
+        icon:"assets/globe.png",
+        title:"SixVago",
+        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cumque dolore asperiores, facere, harum neque sequi culpa sapiente voluptatem debitis reiciendis alias?",
+        img:"assets/sixVago.PNG",
+        link:"https://github.com/FlavioBernachia/pi-sixvago-g1",
+    },
+    {
+        id:2,
+        icon:"assets/globe.png",
+        title:"RickAndMorty",
+        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cumque dolore asperiores, facere, harum neque sequi culpa sapiente voluptatem debitis reiciendis alias?",
+        img:"assets/rickandmorty.PNG",
+        link:"https://github.com/FlavioBernachia/Rick-and-Morty",
+    },
+    {
+        id:3,
+        icon:"assets/writing.png",
+        title:"ToDo by Me ",
+        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cumque dolore asperiores, facere, harum neque sequi culpa sapiente voluptatem debitis reiciendis alias?",
+        img:"assets/todo.PNG",
+        link:"https://github.com/FlavioBernachia/To-Do-By-Me",
+    }
+]

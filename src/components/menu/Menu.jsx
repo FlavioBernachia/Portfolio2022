@@ -1,5 +1,6 @@
 import React from 'react'
 import "./menu.scss"
+import Iframe from "react-iframe"
 
 export default function Menu({openHamburger, setOpenHamburger}) {
   return (
@@ -21,6 +22,13 @@ export default function Menu({openHamburger, setOpenHamburger}) {
                 <a href="#contact" onClick={()=> setOpenHamburger(false)}>Contact</a>
             </li>
         </ul>
+        <Iframe style="border-radius:12px" 
+        src="https://open.spotify.com/embed/album/060SvgMzLKrNzpvVLK5gSo?utm_source=generator&theme=0" width="250" 
+        height="152" 
+        frameBorder="0" 
+        allowfullscreen="" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy"></Iframe>
     </div>
   )
 }
